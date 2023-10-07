@@ -16,6 +16,3 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-
-
-# Post.object.create(author=me, title='Sample Title', text='Text, text, text.')
